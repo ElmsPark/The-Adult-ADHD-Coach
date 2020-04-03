@@ -1,0 +1,111 @@
+@font-face {
+  font-family: 'LF';
+  src:  url('fonts/LF.eot?zc7l5h');
+  src:  url('fonts/LF.eot?zc7l5h#iefix') format('embedded-opentype'),
+    url('fonts/LF.ttf?zc7l5h') format('truetype'),
+    url('fonts/LF.woff?zc7l5h') format('woff'),
+    url('fonts/LF.svg?zc7l5h#LF') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+.icon {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'LF' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-LF-Twitter-icon .path1:before {
+  content: "\e904";
+  color: rgb(0, 0, 0);
+}
+.icon-LF-Twitter-icon .path2:before {
+  content: "\e905";
+  margin-left: -1.013671875em;
+  color: rgb(244, 244, 244);
+}
+.icon-downin-divid .path1:before {
+  content: "\e900";
+  color: rgb(65, 110, 142);
+  opacity: 0.5;
+}
+.icon-downin-divid .path2:before {
+  content: "\e901";
+  margin-left: -6.994140625em;
+  color: rgb(65, 110, 142);
+}
+.icon-downout_divid .path1:before {
+  content: "\e902";
+  color: rgb(65, 110, 142);
+  opacity: 0.5;
+}
+.icon-downout_divid .path2:before {
+  content: "\e903";
+  margin-left: -6.994140625em;
+  color: rgb(65, 110, 142);
+}
+.icon-shrink2:before {
+  content: "\e98c";
+}
+.icon-stats-dots:before {
+  content: "\e99b";
+}
+.icon-trophy:before {
+  content: "\e99e";
+}
+.icon-target:before {
+  content: "\e9b3";
+}
+.icon-attachment:before {
+  content: "\e9cd";
+}
+.icon-loop2:before {
+  content: "\ea2e";
+}
+.icon-new-tab:before {
+  content: "\ea7e";
+}
+
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+:root {
+  --fw-light: 300;
+  --fw-normal: 400;
+  --fw-semi: 500;
+  --fw-bold: 700;
+  --fs-h1: 1.5rem;
+  --fs-h2: 2.25rem;
+  --fs-body: 1rem;
+  --fs-xl: 4.5rem;
+  --clr-light: #fff;
+  --clr-gray: #989898;
+  --clr-dark: #444;
+  --clr-accent: #D06D6D;
+  --clr-accent-dark: #613131;
+}
+
+.logo {
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+    margin-bottom: 0;
+    max-height: 54%;
+    display: inline-block;
+    float: none;
+    vertical-align: middle;
+    -webkit-transform: translateZ(0);
+}
